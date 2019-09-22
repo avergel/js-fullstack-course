@@ -1,1 +1,1 @@
-curso-fullstack-helsinki
+JS fullstack course. University of Helsinki
