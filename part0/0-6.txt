@@ -1,0 +1,7 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa {"content":"test","date":"2019-09-22T09:44:24.240Z"}
+server-->browser: status: 201 Created. {"message":"note created"}
+note over browser:
+JS code calls redrawNotes() function
+which renders the list of notes
+without refreshing the whole web page
+end note
