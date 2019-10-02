@@ -1,0 +1,45 @@
+
+#get all users
+get http://localhost:3003/api/users
+###
+
+#create new user
+post http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+  "username": "atouring",
+  "name": "Alan Touring",
+  "password": "qwerty123"
+}
+###
+
+#create new user
+post http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+  "username": "alovelace",
+  "name": "Ada Lovelace",
+  "password": "1234567890"
+}
+###
+
+#login user
+post http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "username": "atouring",
+  "password": "qwerty123"
+}
+###
+
+#login user
+post http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "username": "alovelace",
+  "password": "1234567890"
+}
